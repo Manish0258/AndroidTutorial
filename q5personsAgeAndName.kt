@@ -20,11 +20,11 @@ fun sortPersons(persons: List<Person>): List<Person> {
 
 fun main() {
     val persons = listOf(
-        Person("Swaraj", 21),
+        Person("Manish", 21),
         Person("Raj", 23),
-        Person("Vishal", 22),
+        Person("Wahid", 22),
         Person("Rishu", 21),
-        Person("Rounak", 22)
+        Person("Deepak", 22)
     )
 
     val sortedPersons = sortPersons(persons)
